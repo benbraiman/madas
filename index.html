@@ -1,0 +1,95 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>My Page</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="home">
+	
+	<div data-role="header">		
+		<h1>madas</h1>
+	</div><!-- /header -->
+	
+	<div data-role="content">	
+		<p>תבחרו על מי אתם רוצים להתלונן</p>
+		<ul data-role="listview" data-filter="true" data-fullscreen="true">
+			<li>
+				<a data-transition="slide" href="#david">צרפתי</a>
+			</li>
+			<li>
+				<a data-transition="slide" href="#maor">מאור</a>
+			</li>
+			<li>
+				<a data-transition="slide" href="#noam">נועם</a>
+			</li>
+            <li>
+                <a data-transition="slide" href="#ben">בן</a>
+             </li>
+		</ul>
+	</div>
+	<div data-role="footer">
+    </div>
+
+</div>
+
+<div data-role="page" id="david">
+
+	<div data-role="header">
+		<a href="#home" data-transition="slide" data-direction="reverse" class="ui-btn-left">Back</a>
+		<h1>About me</h1>
+	</div>
+
+	<div data-role="content">	
+  אני קצין בבה"ד ויש לי יומן זה מה שחשוב
+	</div>
+
+</div>
+<div data-role="page" id="maor">
+
+	<div data-role="header">
+		<a href="#home" data-transition="slide" data-direction="reverse" class="ui-btn-left">Back</a>
+		<h1>About me</h1>
+	</div>
+
+	<div data-role="content">	
+		אני מאחר ולא עונה בקבוצה
+	</div>
+
+</div>
+<div data-role="page" id="noam">
+
+	<div data-role="header">
+		<a href="#home" data-transition="slide" data-direction="reverse" class="ui-btn-left">Back</a>
+		<h1>About me</h1>
+	</div>
+
+	<div data-role="content">	
+		אני נעלם ויש לי תירוצים
+	</div>
+
+</div>
+
+<div data-role="page" id="ben">
+
+    <div data-role="header">
+     <a href="#home" data-transition="slide" data-direction="reverse" class="ui-btn-left">Back</a> 
+     <h1>About me</h1>
+    </div>
+    
+   <div data-role="content">
+
+       הרעיון שלנו כבר באפסטור ואני הולך לעשות בזכותכם מליונים
+
+   </div>
+
+
+
+</div>
+
+</body>
+</html>
